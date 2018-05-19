@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mrol51');
-  src:  url('fonts/icomoon.eot?mrol51#iefix') format('embedded-opentype'),
-  url('fonts/icomoon.ttf?mrol51') format('truetype'),
-  url('fonts/icomoon.woff?mrol51') format('woff'),
-  url('fonts/icomoon.svg?mrol51#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?a2bqoc');
+  src:  url('fonts/icomoon.eot?a2bqoc#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?a2bqoc') format('truetype'),
+  url('fonts/icomoon.woff?a2bqoc') format('woff'),
+  url('fonts/icomoon.svg?a2bqoc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,11 +24,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-web-design:before {
+.icon-theme:before {
+  content: "\e912";
+}
+.icon-cofc:before {
+  content: "\e913";
+}
+.icon-networking:before {
   content: "\e900";
 }
-.icon-funding:before {
+.icon-keynote:before {
   content: "\e901";
+}
+.icon-coaching:before {
+  content: "\e90d";
+}
+.icon-workshop:before {
+  content: "\e90e";
+}
+.icon-brainstorm:before {
+  content: "\e90c";
+}
+.icon-discussion:before {
+  content: "\e90f";
+}
+.icon-web-design:before {
+  content: "\e910";
+}
+.icon-funding:before {
+  content: "\e911";
 }
 .icon-sustainability-:before {
   content: "\e902";
